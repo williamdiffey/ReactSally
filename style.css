@@ -1,0 +1,32 @@
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #A8BBBF;
+    background: #1D2226;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0px
+  }
+
+  p {
+      text-align: left;
+  }
+
+
+  @media only screen and (max-width: 320px) {
+    img {
+        width: 100px;
+    }
+  }
+
+
+  @media only screen and (min-width: 320px) {
+    img {
+        width: 200px;
+    }
+  }
